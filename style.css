@@ -44,7 +44,7 @@ figure#slideshow img:first-child {
   background: #fff; 
 }
 
-/* #container:-moz-full-screen figure, #container:-ms-full-screen figure, #container:-webkit-fullscreen figure, #container:fullscreen figure { 
+#container:-moz-full-screen figure, #container:-ms-full-screen figure, #container:-webkit-fullscreen figure, #container:fullscreen figure { 
   width: 100%;
   margin: 0 auto;
   background: #fff; 
