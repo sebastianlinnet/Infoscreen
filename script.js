@@ -6,16 +6,12 @@ function fullScreen(element) {
     } else if (element.mozRequestFullScreen) {
         element.mozRequestFullScreen();
     }
-    //link = document.getElementById("container");
-    //link.removeAttribute("onclick");
-    //link.setAttribute("onclick", "cancelFullScreen()");
 }
 
 window.onload = function() {
     imgs = document.getElementById('slideshow').children;
     picInterval = 15000;
     currentPic = 0;
-    //imgs[currentPic].style.webkitAnimation = 'fadeImg '+interval+'ms';
     imgs[currentPic].style.animation = 'fadeImg '+picInterval+'ms';
 
     setInterval(function(){
@@ -25,7 +21,6 @@ window.onload = function() {
         } else { 
             currentPic++; 
         }
-        //imgs[currentPic].style.webkitAnimation = 'fadeImg '+interval+'ms';
         imgs[currentPic].style.animation = 'fadeImg '+picInterval+'ms';
     }, picInterval);
 }
