@@ -1,3 +1,4 @@
+//INDEX 1
 function fullScreen(element) {
     if (element.requestFullScreen) {
         element.requestFullScreen();
