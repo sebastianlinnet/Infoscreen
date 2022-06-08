@@ -39,5 +39,5 @@ function slideshow() {
     index++;
     if (index > pics.length) { index = 1 }
     pics[index - 1].style.display = "block";
-    setTimeout(slideshow, 5000);
+    setTimeout(slideshow, 30000);
 }
